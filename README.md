@@ -27,4 +27,50 @@ Together, Git and GitHub are essential for ensuring seamless teamwork, maintaini
     ```bash
     git --version
     ```
-    
+**Step 3 :**
+  - Then configure Git with user name and email
+    ```bash
+    git config --global user.name "Your Name" git config --global
+    ```
+    ```bash
+    user.email "your.email@example.com"
+    ```
+
+# How to create repository on your github account
+ - Go to your github account 
+ - Then go to the repositories section and click the green color "New button"
+ - Enter "Repository name", add "Description" choose public or private(Note: public means your repo see anyone in the world and private means its only show show you)
+ - Then click the "Create repository" button
+  - So finally your repository created successfully.
+  
+**How to initialize repository in your project?**
+ - first of all initialize the empty repository using following git command
+  
+    ```bash
+    git init
+    ```
+- then shows you "U" on your files name "U" means untracked file. How to this is tracked? following git command helps to tracked file
+  
+  ```bash
+  git add <-file name->
+  ```
+  
+- Then commit the file using following command
+  
+  ```bash
+  git commit -m "Add Your Commit Message"
+  ```
+
+- then connect your local repository to github repository using following command
+  
+  ```bash
+  git remote add origin <-Enter remote repository url->
+  ```
+
+- after all push your code on your github repository using following command
+  
+  ```bash
+  git push -u origin main
+  ```
+
+- finally your code pushes on your repository you can see the your code on your github repository account
