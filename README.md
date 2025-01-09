@@ -126,3 +126,38 @@ git log
 - The git log command is used to view the commit history of your Git repository. Through this command, you can see what changes were made in each commit, which files were modified, and on which date the commit was made.
   
     ![alt text](image-6.png)
+
+
+# Commit Messages Rules
+1. Use Present Tense
+   - Write your commit message in the present tense, as if you're describing what the commit does now.
+   - Correct: "Fix bug in homepage layout"
+   - Incorrect: "Fixed bug in homepage layout"
+2. Keep it Short and Clear
+   - The message should be concise but clear enough to describe the change.
+   - Aim for the first line to be no longer than 50 characters.
+   - If you need more details, add a body after the first line.
+3. Use a Summary Line
+      - The first line of the commit message should summarize the change in one line.
+      - Separate the summary from the body (if any) with a blank line.
+  
+        Example -
+        ```bash
+        git commit -m "Add responsive design to the homepage"
+        ```
+        ```bash
+        git commit -m "Implemented media queries to adjust layout for mobile devices.
+        ```
+4. Use prefixes like
+  - feat: Add user authentication
+  - fix: Correct typo in the documentation
+  - docs: Update readme with setup instructions
+
+
+***Summary***
+- Write in present tense.
+- Keep it short, clear, and descriptive.
+- Start with a verb and summarize what the commit does.
+- Include context for major changes if necessary.
+- Use references for issues/tasks when applicable.
+
