@@ -4,8 +4,12 @@ Welcome to the ChaiCode Git and GitHub Documentation. This guide is designed to 
 
 Together, Git and GitHub are essential for ensuring seamless teamwork, maintaining code quality, and delivering robust software solutions efficiently. At ChaiCode, adopting these tools helps streamline development workflows, foster collaboration, and achieve excellence in every project.
 
-## What is git and why it is used?
+## Basics of Git and GitHub
 
-Git is a version control system that helps manage and track code. Developers can easily create branches and work on different features without any conflicts. It enables multiple developers to work efficiently on the same project.
+**Git**
+ - Git is a version control system that helps manage and track code. Developers can easily create branches and work on different features without any conflicts. It enables multiple developers to work efficiently on the same project.
 
-Major companies use Git because it keeps the code safe and well-structured. If the system crashes, Git provides a backup, ensuring that the code remains safe and secure.
+ - Major companies use Git because it keeps the code safe and well-structured. If the system crashes, Git provides a backup, ensuring that the code remains safe and secure.
+  
+**Github**
+ - GitHub is a platform where you can store your code. If your system crashes in the future, your code will remain safe and accessible through repositories on GitHub. Developers from all over the world share and collaborate on their project code on GitHub. It is a place where you can organize your code and ensure that it remains secure and available with a backup.
