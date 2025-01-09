@@ -124,4 +124,5 @@ git pull
 git log 
 ```
 - The git log command is used to view the commit history of your Git repository. Through this command, you can see what changes were made in each commit, which files were modified, and on which date the commit was made.
+  
     ![alt text](image-6.png)
