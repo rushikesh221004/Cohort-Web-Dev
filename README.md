@@ -13,3 +13,18 @@ Together, Git and GitHub are essential for ensuring seamless teamwork, maintaini
   
 **Github**
  - GitHub is a platform where you can store your code. If your system crashes in the future, your code will remain safe and accessible through repositories on GitHub. Developers from all over the world share and collaborate on their project code on GitHub. It is a place where you can organize your code and ensure that it remains secure and available with a backup.
+
+# How to install Git?
+
+**Step 1 :**
+- Go to the google chrome and search "git download". Go to the first link
+   ![alt text](image.png) 
+
+    click the download button as your system requirements(e.g, macOS, Windows, Linux/Unix)
+
+**Step 2 :**
+ - After downloading check the git installed or not following command
+    ```bash
+    git --version
+    ```
+    
