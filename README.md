@@ -88,6 +88,7 @@ Together, Git and GitHub are essential for ensuring seamless teamwork, maintaini
         ![alt text](image-1.png)
 
     - changes staged
+  
         ![alt text](image-2.png)
 
 
