@@ -74,3 +74,50 @@ Together, Git and GitHub are essential for ensuring seamless teamwork, maintaini
   ```
 
 - finally your code pushes on your repository you can see the your code on your github repository account
+
+
+# How to use Git commands and what is the purpose using Git commands
+
+**first command -**
+ ```bash
+ git status
+ ```
+ - This command shows the how many files staged or how many files not staged means not added
+
+    - changes not staged -
+![alt text](image-1.png)
+
+    - 
+
+
+**second command -**
+```bash
+git add 
+```
+- This command adds local repository changes in staging area.
+
+**third command -**
+```bash
+git commit -m "message"
+```
+- The git commit -m "message" command is used to commit your staged changes, where you provide a message that gets stored with your commit.
+
+**fourth command -**
+```bash
+git push
+```
+- this command used to push changes on your github repository 
+
+**fifth command -**
+```bash
+git pull
+```
+- The git pull command is used to keep your local repository up-to-date, meaning it fetches all the latest changes from the remote repository and merges them into your local repository.
+
+**sixth command -**
+```bash
+git log 
+```
+- The git log command is used to view the commit history of your Git repository. Through this command, you can see what changes were made in each commit, which files were modified, and on which date the commit was made.
+
+
